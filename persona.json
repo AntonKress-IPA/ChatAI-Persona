@@ -16,7 +16,7 @@
             },
             {
                     "role": "info", 
-                    "content": "Hallo, :) Ich bin ein Support-Bot der bei der Auswahl von Smart Services unterstützt. Bitte beschreibe wobei ich dir helfen kann."
+                    "content": "Hallo, ich bin ein Support-Bot der bei der Auswahl von Smart Services unterstützt. Bitte beschreibe wobei ich dir helfen kann. :)"
             }
         ]
     }
