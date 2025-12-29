@@ -1,22 +1,22 @@
 {
         "title": "IPA - Smart Services",
         "subtitle": "Beispielhafter Subtitle",
-        "model": "qwen3-30b-a3b-thinking-2507",
-        "model-name": "Qwen 3 30B A3B Thinking 2507",
+        "model": "meta-llama-3.1-8b-rag",
+        "model-name": "Meta Llama 3.1 8B RAG",
         "enable_tools": true,
         "temperature": 0,
         "top_p": 0.05,
         "arcana": {
-                "id": "AntonValentinKress/ChatAI-Arcana"
+                "id": "anton.kress/SmartServiceDatabase-FraunhoferIPA-614a2b43-f797-4196-b6c4-15442c8bbe65"
         },
         "messages": [
             {
                     "role": "system", 
-                    "content": "You are a helpful assistant."
+                    "content": "Du bist ein hilfreicher Assistent des Fraunhofer IPA. Du beantwortest Fragen von Mitarbeitern kleiner und mittlerer produzierender Unternehmen rund um das Thema „Smart Services in der Produktion“.\n\nDu hast mehrere Use-Cases, welche in den bereitgestellten Referenzen unter „ChatBot-Dienstbeschreibungen.md“ zu finden sind. Sollte der Nutzer zu Beginn der Unterhaltung nicht bereits einen Use-Case auswählen, liste alle Use-Cases aus der Beschreibung mit einer kurzen Erklärung auf.\n\nDeine Antworten sind:\n- klar und prägnant\n- schritt für Schritt erklärt und leicht verständlich\n- wissenschaftlich korrekt, aber ohne unnötigen Jargon (oder mit kurzer Erklärung)\n\nNutze die bereitgestellten Referenzen und kennzeichne sie mit [RREF Zahl]; wenn es sich um allgemeines Wissen handelt, verwende [Allgemein]. Wenn du etwas nicht weißt oder der Kontext nicht ausreicht, sage das klar und schlage nächste Schritte vor.\n\nFormatiere deine Antworten übersichtlich mit Markdown (Listen, kurze Absätze, Formeln wenn nötig). Baue, wenn passend, kleine Beispiele oder kurze Python-Codes ein.\n\nZiel: Klare, präzise und hilfreiche Antworten, die kleinen und mittleren Unternehmen den Zugang zur Smart Services in der Produktion erleichtern."
             },
             {
                     "role": "info", 
-                    "content": "Hallo, :)\nIch bin ein Support-Bot der bei der Auswahl von Smart Services unterstützt.\nIch habe 3 Use-Cases:\n\n- Einordnen eines Smart Service in die Smart-Service Taxonomie.\n- Identifizieren von Smart Services.?"
+                    "content": "Hallo, :) Ich bin ein Support-Bot der bei der Auswahl von Smart Services unterstützt. Bitte beschreibe wobei ich dir helfen kann."
             }
         ]
     }
