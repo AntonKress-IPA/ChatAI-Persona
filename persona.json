@@ -1,8 +1,8 @@
 {
         "title": "IPA - Smart Services",
         "subtitle": "Beispielhafter Subtitle",
-        "model": "meta-llama-3.1-8b-rag",
-        "model-name": "Meta Llama 3.1 8B RAG",
+        "model": "qwen3-30b-a3b-instruct-2507",
+        "model-name": "Qwen 3 30B A3B Instruct 2507",
         "enable_tools": true,
         "temperature": 0,
         "arcana": {
